@@ -1,0 +1,21 @@
+{
+  "name": "landing_page_v2",
+  "version": "1.0.0",
+  "description": "my second landing page \"Hosting Company\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moan / Vasyl",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify-es": "^3.0.0",
+    "sass": "^1.59.3"
+  }
+}
