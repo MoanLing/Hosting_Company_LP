@@ -3,11 +3,13 @@ Hosting Company (Landing Page)
 
 ## Using
 
-### **Running in testing mode**
+### _**First of all use command `npm i` or `npm install` to install the appropriate node-packages for project.**_
 
-- Use `gulp testing` command to run the project in testing mode.
+### **Running in "testing mode"**
 
-### **Running in deploying mode**
+- Use `gulp testing` to run the project in testing mode.
+
+### **Running in "deploying mode"**
 
 - Open `index.html` from `src` directory and change name for connected style-file from `style.css` to `style.min.css` and for connected script-file from `script.js` to `script.min.js`.
-- Use `gulp build` command to run the project in deploying mode.
+- Use `gulp build` to run the project in deploying mode.
