@@ -33,38 +33,42 @@
                     <!--  Header navigation  -->
                     <nav class="header__menu">
 
-                        <img class="header__logo" src="img/logos/site_header_logo.svg" alt="site-logo" >
-                        <ul class="header__menu-items">
+                        <section class="header__menu-left">
+                            <a href="#" class="header__logo-link">
+                                <img class="header__logo" src="img/logos/site_header_logo.svg" alt="site-logo" >
+                            </a>
+                            <a class="header__menu-link header__menu-link--active" href="#">Our Services</a>
+                        </section>
 
-                            <li class="header__menu-item">
-                                <a class="header__menu-link header__menu-link--active" href="#">Our Services</a>
-                            </li>
+                        <section class="header__menu-center">
+                            <ul class="header__menu-center-items">
 
-                            <li class="header__menu-item">
-                                <a class="header__menu-link" href="#">About</a>
-                            </li>
+                                <li class="header__menu-center-item">
+                                    <a class="header__menu-link" href="#">About</a>
+                                </li>
 
-                            <li class="header__menu-item">
-                                <a class="header__menu-link" href="#">Blog&News</a>
-                            </li>
+                                <li class="header__menu-center-item">
+                                    <a class="header__menu-link" href="#">Blog&News</a>
+                                </li>
 
-                            <li class="header__menu-item">
-                                <a class="header__menu-link" href="#">Contact</a>
-                            </li>
+                                <li class="header__menu-center-item">
+                                    <a class="header__menu-link" href="#">Contact</a>
+                                </li>
 
-                            <li class="header__menu-item">
-                                <a class="header__menu-link" href="#">Account</a>
-                            </li>
+                            </ul>
+                        </section>
 
-                        </ul>
+                        <section class="header__menu-right">
+                            <a class="header__menu-link" href="#">Account</a>
 
-                        <span class="header__rectangle"></span>
+                            <span class="header__rectangle"></span>
 
-                        <section class="header__contact">
-                            <label class="phone-label" for="header__phone-number">
-                                <img class="phone-img" src="img/icons/phone_contact_vector.svg" alt="phone-icon">
-                            </label>
-                            <a class="header__phone-number" id="header__phone-number" href="tel:2349067322844">+2349067322844</a>
+                            <section class="header__contact">
+                                <label class="phone-label" for="header__phone-num">
+                                    <img class="phone-img" src="img/icons/phone_contact_vector.svg" alt="phone-icon">
+                                </label>
+                                <a class="header__phone-number" id="header__phone-num" href="tel:2349067322844">+2349067322844</a>
+                            </section>
                         </section>
 
                     </nav>
@@ -78,7 +82,7 @@
     <!--  Main  -->
         <main class="main">
 
-            <section class="container">
+            <section class="container main__inner">
                 <h2 class="visually-hidden">Container</h2>
 
                 <!--  Hero section  -->
